@@ -1,6 +1,0 @@
-D:\git\LeetCode\0002两数相加\bin\Debug\0002两数相加.exe.config
-D:\git\LeetCode\0002两数相加\bin\Debug\0002两数相加.exe
-D:\git\LeetCode\0002两数相加\bin\Debug\0002两数相加.pdb
-D:\git\LeetCode\0002两数相加\obj\Debug\0002两数相加.exe
-D:\git\LeetCode\0002两数相加\obj\Debug\0002两数相加.pdb
-D:\git\LeetCode\0002两数相加\obj\Debug\0002两数相加.csprojResolveAssemblyReference.cache
