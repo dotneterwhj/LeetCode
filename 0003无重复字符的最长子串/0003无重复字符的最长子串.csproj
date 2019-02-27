@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>_0003无重复字符的最长子串</RootNamespace>
-    <AssemblyName>_0003无重复字符的最长子串</AssemblyName>
+    <AssemblyName>0003无重复字符的最长子串</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

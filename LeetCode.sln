@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0001两数之和", "0001两
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0002两数相加", "0002两数相加\0002两数相加.csproj", "{B8E1A20D-D78F-4682-B4C5-0B6E8E649DA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0003无重复字符的最长子串", "0003无重复字符的最长子串\0003无重复字符的最长子串.csproj", "{EA52658F-FED4-4B9A-B65C-1B4B3C49AA36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B8E1A20D-D78F-4682-B4C5-0B6E8E649DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8E1A20D-D78F-4682-B4C5-0B6E8E649DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8E1A20D-D78F-4682-B4C5-0B6E8E649DA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA52658F-FED4-4B9A-B65C-1B4B3C49AA36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA52658F-FED4-4B9A-B65C-1B4B3C49AA36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA52658F-FED4-4B9A-B65C-1B4B3C49AA36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA52658F-FED4-4B9A-B65C-1B4B3C49AA36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,6 +29,40 @@ namespace _0003无重复字符的最长子串
         //请注意，你的答案必须是 子串 的长度，"pwke" 是一个子序列，不是子串。
         static void Main(string[] args)
         {
+            string str = " ";
+            int length = GetNorepeatStrLength(str);
+            Console.WriteLine(length.ToString());
+            Console.ReadKey();
+        }
+
+        private static int GetNorepeatStrLength(string str)
+        {
+            List<int> list = new List<int>();
+            Hashtable ht = new Hashtable();
+            for (int i = 0; i < str.Length; i++)
+            {
+                int count = 1;
+                list.Add(count);
+                ht.Clear();
+                ht[i] = str[i];
+                for (int j = i + 1; j < str.Length; j++)
+                {
+                    if (!ht.ContainsValue(str[j]))
+                    {
+                        ht[j] = str[j];
+                        count++;
+                        list[i] = count;
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
+            }
+
+            if (list.Count == 0) return 0;
+
+            return list.Max();
         }
     }
 }
